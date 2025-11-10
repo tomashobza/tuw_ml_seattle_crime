@@ -1,0 +1,5 @@
+Dataset,Classifier,Metric_Type,F1_Score,Precision,Recall,Accuracy,Train_Time_s,Test_Time_s,Train_Samples,Test_Samples,C,max_iter
+svm_ozone,LinearSVC,binary,0.2778,0.1667,0.8333,0.8462,0.013,0.001,2027,,0.1,500
+svm_breast_cancer,LinearSVC,binary,0.930233,0.952381,0.909091,0.947368,0.001347,0.000623,228,57,0.01,500
+svm_loan,LinearSVC,macro,0.527306,0.520574,0.547679,0.6725,15.604131,0.006356,8000,2000,10.0,300
+svm_seattle_crime,LinearSVC,macro,0.0630,0.0840,0.1203,0.1263,4.5,0.078,50000,104718,0.01,2000
